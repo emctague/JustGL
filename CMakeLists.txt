@@ -3,4 +3,4 @@ project(JustGL)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(JustGL src/library.cpp src/include/library.h)
+add_subdirectory(src)
